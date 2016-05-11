@@ -10,4 +10,10 @@
 
 @interface zxGenarateToken : NSObject
 
+/*
+ AccessKey
+ SecretKey
+ sopeName  空间名
+ */
+-(NSString *)returnQiniuTokenWithAk:(NSString *)AccessKey   sk:(NSString *)SecretKey scopeName:(NSString *)sopeName;
 @end

@@ -13,9 +13,14 @@
 		5BB986B41C943C8D00D8F8E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB986B21C943C8D00D8F8E0 /* Main.storyboard */; };
 		5BB986B61C943C8D00D8F8E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB986B51C943C8D00D8F8E0 /* Assets.xcassets */; };
 		5BB986B91C943C8D00D8F8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB986B71C943C8D00D8F8E0 /* LaunchScreen.storyboard */; };
+		5BB986C11C94475E00D8F8E0 /* weixinErweima_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BB986C01C94475E00D8F8E0 /* weixinErweima_03@2x.png */; };
+		5BB986C41C945CF700D8F8E0 /* zxGenarateToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB986C31C945CF700D8F8E0 /* zxGenarateToken.m */; };
+		5BB986CB1C94699A00D8F8E0 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB986CA1C94699A00D8F8E0 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		743534DC9A4519ACD7C7D21E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19394200419E92998E56B8FC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19394200419E92998E56B8FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB986A61C943C8D00D8F8E0 /* qiniuUploadImageText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qiniuUploadImageText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB986AA1C943C8D00D8F8E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BB986AC1C943C8D00D8F8E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,13 @@
 		5BB986B51C943C8D00D8F8E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB986B81C943C8D00D8F8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB986BA1C943C8D00D8F8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB986C01C94475E00D8F8E0 /* weixinErweima_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixinErweima_03@2x.png"; sourceTree = "<group>"; };
+		5BB986C21C945CF700D8F8E0 /* zxGenarateToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zxGenarateToken.h; sourceTree = "<group>"; };
+		5BB986C31C945CF700D8F8E0 /* zxGenarateToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zxGenarateToken.m; sourceTree = "<group>"; };
+		5BB986C91C94699A00D8F8E0 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		5BB986CA1C94699A00D8F8E0 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		724683596D10A998144817DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FEF6C7618B90595D00DD2297 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743534DC9A4519ACD7C7D21E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A9D2DD8F91B3F27A262AC0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEF6C7618B90595D00DD2297 /* Pods.debug.xcconfig */,
+				724683596D10A998144817DA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5BB9869D1C943C8D00D8F8E0 = {
 			isa = PBXGroup;
 			children = (
+				5BB986C01C94475E00D8F8E0 /* weixinErweima_03@2x.png */,
+				5BB986C91C94699A00D8F8E0 /* JSONKit.h */,
+				5BB986CA1C94699A00D8F8E0 /* JSONKit.m */,
 				5BB986A81C943C8D00D8F8E0 /* qiniuUploadImageText */,
 				5BB986A71C943C8D00D8F8E0 /* Products */,
+				3A9D2DD8F91B3F27A262AC0E /* Pods */,
+				AB9EE52A0732B7927E8E75D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +89,8 @@
 				5BB986AD1C943C8D00D8F8E0 /* AppDelegate.m */,
 				5BB986AF1C943C8D00D8F8E0 /* ViewController.h */,
 				5BB986B01C943C8D00D8F8E0 /* ViewController.m */,
+				5BB986C21C945CF700D8F8E0 /* zxGenarateToken.h */,
+				5BB986C31C945CF700D8F8E0 /* zxGenarateToken.m */,
 				5BB986B21C943C8D00D8F8E0 /* Main.storyboard */,
 				5BB986B51C943C8D00D8F8E0 /* Assets.xcassets */,
 				5BB986B71C943C8D00D8F8E0 /* LaunchScreen.storyboard */,
@@ -79,6 +108,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AB9EE52A0732B7927E8E75D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19394200419E92998E56B8FC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BB986BD1C943C8D00D8F8E0 /* Build configuration list for PBXNativeTarget "qiniuUploadImageText" */;
 			buildPhases = (
+				2CBA2EDD72ADBD9DDA8CFE5F /* Check Pods Manifest.lock */,
 				5BB986A21C943C8D00D8F8E0 /* Sources */,
 				5BB986A31C943C8D00D8F8E0 /* Frameworks */,
 				5BB986A41C943C8D00D8F8E0 /* Resources */,
+				0F8E04BA696E44A0E33CF9D0 /* Embed Pods Frameworks */,
+				8B9F415B05E33EA9896E9BF6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +145,7 @@
 		5BB9869E1C943C8D00D8F8E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = zx;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = zhangxin;
 				TargetAttributes = {
@@ -137,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB986C11C94475E00D8F8E0 /* weixinErweima_03@2x.png in Resources */,
 				5BB986B91C943C8D00D8F8E0 /* LaunchScreen.storyboard in Resources */,
 				5BB986B61C943C8D00D8F8E0 /* Assets.xcassets in Resources */,
 				5BB986B41C943C8D00D8F8E0 /* Main.storyboard in Resources */,
@@ -145,6 +187,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F8E04BA696E44A0E33CF9D0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CBA2EDD72ADBD9DDA8CFE5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9F415B05E33EA9896E9BF6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BB986A21C943C8D00D8F8E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -152,7 +242,9 @@
 			files = (
 				5BB986B11C943C8D00D8F8E0 /* ViewController.m in Sources */,
 				5BB986AE1C943C8D00D8F8E0 /* AppDelegate.m in Sources */,
+				5BB986C41C945CF700D8F8E0 /* zxGenarateToken.m in Sources */,
 				5BB986AB1C943C8D00D8F8E0 /* main.m in Sources */,
+				5BB986CB1C94699A00D8F8E0 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +352,7 @@
 		};
 		5BB986BE1C943C8D00D8F8E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF6C7618B90595D00DD2297 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = qiniuUploadImageText/Info.plist;
@@ -271,6 +364,7 @@
 		};
 		5BB986BF1C943C8D00D8F8E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724683596D10A998144817DA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = qiniuUploadImageText/Info.plist;
@@ -299,6 +393,7 @@
 				5BB986BF1C943C8D00D8F8E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
