@@ -9,8 +9,8 @@
 #import "ViewController.h"
 #import <QiniuSDK.h>
 #import "zxGenarateToken.h"
-#define AK @"EJyvPPQiFEBvdmQsmAZhIiRyn7iNp7d_rCm4fh__"
-#define SK @"2leWBxSvMsFWdoO0bv4GZxTID6K0aik2M0rzOKtM"
+#define AK @"EJyvPPQiFEBvdmQsmA**************"
+#define SK @"2leWBxSvMsFWdoO0b***************"
 #define KscopeName @"qiniutext"
 @interface ViewController ()
 
